@@ -1,0 +1,266 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color:#30233D;
+	line-height: 1.75;
+	font-size: 15px;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+	color: #30233D;
+	line-height: 128%;
+}
+.h1{
+	font-size: 48px;
+}
+.h2{
+	font-size: 39px;
+}
+.h3{
+	font-size: 30px;
+}
+.subtitle{
+	font-size: 18px;
+	font-weight: 500;
+}
+.caption{
+	font-size: 10px;
+}
+.bg-primary{
+	background: #0E041C;
+}
+.bg-secondary{
+	background: #FF5B79;
+}
+.bg-error{
+	background: #FF0A0A;
+}
+.bg-success{
+	background: #25C9AB;
+}
+.bg-white{
+	background: white;
+}
+.text-white{
+	color:white;
+}
+.text-secondary{
+	color:#FF5B79;
+}
+.text-error{
+	color:#FF0A0A;
+}
+.text-success{
+	color:#25C9AB;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-justify{
+	text-align: justify;
+}
+
+.btn{
+	font-size: 14px;
+	font-weight: 500;
+/*	text-transform: uppercase;*/
+	padding: 14px 30px;
+	border-radius: 40px;
+	text-decoration: none;
+}
+/*
+.btn-secondary{
+	background: #FF5B79;
+	color: white;
+}
+*/
+.btn-outline{
+	background: transparent;
+	color:#FF5B79;
+	border: 1.7px solid #FF5B79;
+}
+.btn:hover{
+	background: #FF5B79;
+	color: white;
+	border-color: #FF5B79!important;
+	transition: all 1s ease 0s;
+}
+
+.container-fluid{
+	width: 100%;
+
+}
+.container{
+	width: 1110px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.direction-column{
+	flex-direction: column;
+}
+/*.row>*{
+	padding: 32px;
+}*/
+.row>[class*="col-"]{
+	padding: 32px;
+}
+.g-0>[class*="col-"]{
+	padding: 0 !important;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.align-s-center{
+	align-self: center;
+}
+.align-s-end{
+	align-self: flex-end;
+}
+.align-item-end{
+	align-items: flex-end;
+}
+.align-center{
+	align-items: center;
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%;
+}
+.p-0{
+	padding: 0px!important;
+}
+.p-1{
+	padding: 8px;
+}
+.p-2{
+	padding: 16px;
+}
+.pt-1{
+	padding-top: 8px;
+}
+.pb-1{
+	padding-bottom: 8px;
+}
+.ps-1{
+	padding-left: 8px;
+}
+.pe-1{
+	padding-right: 8px;
+}
+.px-1{
+	padding: 0 8px;
+}
+.px-2{
+	padding:0 16px;
+}
+.py-1{
+	padding: 8px 0;
+}
+.py-5{
+	padding: 40px 0px;
+}
+.py-7{
+	padding: 56px 0;
+}
+/*margin*/
+.m-1{
+	margin: 8px;
+}
+.mt-1{
+	margin-top:8px;
+}
+.mt-2{
+	margin-top: 16px;
+}
+.mt-10{
+	margin-top:80px;
+}
+.mb-1{
+	margin-bottom: 8px;
+}
+.mb-3{
+	margin-bottom: 24px;
+}
+.mb-4{
+	margin-bottom: 36px;
+}
+.mb-9{
+	margin-bottom: 72px;
+}
+.ms-1{
+	margin-left: 8px;
+}
+.ms-auto{
+	margin-right: auto;
+}
+.me-1{
+	margin-right:8px
+}
+.mx-1{
+	margin: 0 8px;
+}
+.my-1{
+	margin:8px 0;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+
+	
+
+
